@@ -93,9 +93,9 @@
   function login(timeout = 3 * 1000) {
     return new Promise((resolve) => {
         let url = {
-            url: `https://www.kejiwanjia.com/wp-json/jwt-auth/v1/token`,    
+            url: `https://www.kejiwanjia.net/wp-json/jwt-auth/v1/token`,    
             headers: { 
-                "Host": "www.kejiwanjia.com",
+                "Host": "www.kejiwanjia.net",
                 "Connection": "keep-alive",
                 "Accept": "application/json, text/plain, */*",
                 "User-Agent": "Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36",
@@ -146,9 +146,9 @@
  function getSign(timeout = 3 * 1000) {
      return new Promise((resolve) => {
          let url = {
-             url: `https://www.kejiwanjia.com/wp-json/b2/v1/getUserMission`,    
+             url: `https://www.kejiwanjia.net/wp-json/b2/v1/getUserMission`,    
              headers: { 
-                "Host": "www.kejiwanjia.com",
+                "Host": "www.kejiwanjia.net",
                 "Connection": "keep-alive",
                 "Accept": "application/json, text/plain, */*",
                 "User-Agent": "Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36",
@@ -203,9 +203,9 @@
   function signin(timeout = 3 * 1000) {
     return new Promise((resolve) => {
         let url = {
-            url: `https://www.kejiwanjia.com/wp-json/b2/v1/userMission`,    
+            url: `https://www.kejiwanjia.net/wp-json/b2/v1/userMission`,    
             headers: { 
-                "Host": "www.kejiwanjia.com",
+                "Host": "www.kejiwanjia.net",
                 "Connection": "keep-alive",
                 "Accept": "application/json, text/plain, */*",
                 "User-Agent": "Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36",
@@ -259,9 +259,9 @@ function doFollow(timeout = 3 * 1000) {
     return new Promise((resolve) => {
         let user_id = randomInt(0,1000)
         let url = {
-            url: `https://www.kejiwanjia.com/wp-json/b2/v1/AuthorFollow`,
+            url: `https://www.kejiwanjia.net/wp-json/b2/v1/AuthorFollow`,
             headers: {
-                "Host": "www.kejiwanjia.com",
+                "Host": "www.kejiwanjia.net",
                 "Connection": "keep-alive",
                 "Accept": "application/json, text/plain, */*",
                 "User-Agent": "Mozilla/5.0 (Linux; Android 10; MI 8 Build/QKQ1.190828.002;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36",
